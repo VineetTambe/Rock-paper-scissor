@@ -2,9 +2,6 @@ import getpass
 # import pygame 
 import time 
 
-# pygame.init()
-
-# clock = pygame.time.Clock()
 
 gameover = False
 
@@ -92,5 +89,5 @@ while quit :
             else:
                 print("Wrong input please try again!")
                 time.sleep(2)
-
+    print('')
     quit = input('Enter 1 to continue 0 to quit :')
